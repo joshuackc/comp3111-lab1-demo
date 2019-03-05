@@ -5,7 +5,9 @@ import lab2.ex1.Book;
 import lab2.ex2.*;
 public class Library {
 	public static void main(String arg[]) {
-		final String array[] = {"Basic Java", "Advance Java", "Forget about Java"};
+		lab3.ex2.UIApplication.run(arg);
+		//lab1 and lab2
+		/*final String array[] = {"Basic Java", "Advance Java", "Forget about Java"};
 		Book b = new Book(array);
 		System.out.println("The title of Chapter 1 is " + b.getChapter(1));
 		String anotherArray[] = b.getChapters();
@@ -21,7 +23,7 @@ public class Library {
 		Phone p = new Phone();
 		MobileComputer m = new MobileComputer();
 		c.charge(p);
-		c.charge(m);
+		c.charge(m);*/
 	}
     public boolean someLibraryMethod() {
         return true;
